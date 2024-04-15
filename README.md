@@ -30,15 +30,16 @@ python main.py input.mp4 bg_image.png
 Once you run this, a region selection window will appear. To proceed with processing
 use that window to select definite background and definite foreground regions by following the
 following instructions.
-<ul>
+<ol>
   <li>Select a region by drawing a rectangle from the frame</li>
   <li>Option 1: Press <code>b</code> to mark the region as definite background</li>
   <li>Option 2: Press <code>f</code> to mark the region as definite foreground</li>
   <li>You go back to step 1 to keep selecting and assigning as many times as you want</li>
   <li>If you have assigned the last selected region press <code>q</code> to go to the next step</li>
-</ul>
+</ol>
+Initial processing to determine the polyhedrons takes a while;thus, you may have to wait.
 
-### Region selection
+### Region Selection and Intermediate/Final Outputs
 <img src="outputs/region_selection.png">
 <br/>
 <img src="outputs/vlahos_mask.png">
